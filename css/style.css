@@ -1,0 +1,38 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-1 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  align-items: center;
+}
+.list {
+  margin-top: 9px;
+}
+.list li {
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.list li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
